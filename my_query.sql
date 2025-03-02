@@ -1,0 +1,10 @@
+USE MyDB2;
+
+CREATE TABLE student (
+    id INTEGER,
+    name VARCHAR(255),
+    age INTEGER
+);
+
+ALTER TABLE student
+ALTER COLUMN id INT NOT NULL;
